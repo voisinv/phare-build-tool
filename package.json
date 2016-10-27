@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "phare-build-tool@*",
+        "scope": null,
+        "escapedName": "phare-build-tool",
+        "name": "phare-build-tool",
+        "rawSpec": "*",
+        "spec": "*",
+        "type": "range"
+      },
+      "/Users/Mac-Vincent/Documents/Developpement/phare"
+    ]
+  ],
+  "_from": "phare-build-tool@*",
+  "_id": "phare-build-tool@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/phare-build-tool",
+  "_nodeVersion": "4.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/phare-build-tool-1.0.4.tgz_1471285943355_0.05857037683017552"
+  },
+  "_npmUser": {
+    "name": "voisinv",
+    "email": "vincentvoisin17@gmail.com"
+  },
+  "_npmVersion": "3.10.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "phare-build-tool@*",
+    "scope": null,
+    "escapedName": "phare-build-tool",
+    "name": "phare-build-tool",
+    "rawSpec": "*",
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/phare-build-tool/-/phare-build-tool-1.0.4.tgz",
+  "_shasum": "7994c2ad461f56643086d9ba06a734800e62ab6b",
+  "_shrinkwrap": null,
+  "_spec": "phare-build-tool@*",
+  "_where": "/Users/Mac-Vincent/Documents/Developpement/phare",
+  "author": "",
+  "browserify": {
+    "transform": [
+      "browserify-ng-html2js"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.15.2",
+    "browserify": "^13.0.1",
+    "browserify-css": "^0.9.1",
+    "browserify-ng-html2js": "^1.2.0",
+    "connect-livereload": "^0.5.4",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-import-css": "^0.1.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-ng-templates": "0.0.6",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettify": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "http": "0.0.0",
+    "jquery": "^3.1.0",
+    "mocha": "^3.0.2",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2",
+    "should": "^10.0.0",
+    "supertest": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "gulp-babel": "^6.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7994c2ad461f56643086d9ba06a734800e62ab6b",
+    "tarball": "https://registry.npmjs.org/phare-build-tool/-/phare-build-tool-1.0.4.tgz"
+  },
+  "license": "ISC",
+  "main": "gulpfile.js",
+  "maintainers": [
+    {
+      "name": "voisinv",
+      "email": "vincentvoisin17@gmail.com"
+    }
+  ],
+  "name": "phare-build-tool",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}
