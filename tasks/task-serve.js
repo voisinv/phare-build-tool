@@ -7,9 +7,7 @@ module.exports = function(gulp, $, config) {
   var server = void 0;
 
   gulp.task('livereload', function() {
-    setTimeout(function() {
-      livereload.reload();
-    }, 250);
+    livereload.reload();
   });
 
   gulp.task('start', function() {

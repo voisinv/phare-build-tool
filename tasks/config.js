@@ -24,10 +24,13 @@ module.exports = {
           others: [absPath + 'client/**/*.jade']
         },
         css: {
-          all: absPath + 'client/**/*.less'
+          all: absPath + 'client/**/*.less',
         },
         test: {
           api: absPath + 'tests/api/*.spec.js'
+        },
+        images: {
+          all: absPath + 'client/img/*'
         }
       },
       build: {
@@ -42,6 +45,9 @@ module.exports = {
         },
         css: {
           main: absPath + 'build/client'
+        },
+        images: {
+          all: absPath + 'build/client'
         }
       }
     },

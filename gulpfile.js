@@ -22,6 +22,8 @@ require('./tasks/tasks-verify')(gulp, $, config);
 //   verify:server
 // clean
 require('./tasks/task-clean')(gulp, $, config);
+// copy
+require('./tasks/task-copy')(gulp, $, config);
 // build
 //   build
 //     build:js
@@ -45,7 +47,7 @@ require('./tasks/tasks-watch')(gulp, $, config);
 
 
 gulp.task('serve', function(cb) {
-  runSequence('verify', 'clean', 'build', 'watch', 'start', cb);
+  runSequence('verify', 'clean', 'copy', 'build', 'watch', 'start', cb);
 });
 
 var runSequence = require('run-sequence').use(gulp);
